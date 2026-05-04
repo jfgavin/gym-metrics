@@ -1,0 +1,8 @@
+[project]
+name = "gymtools"
+version = "0.1"
+dependencies = ["requests"]
+
+[project.scripts]
+gym-collect = "gymtools.collect:main"
+
